@@ -1,16 +1,21 @@
 import styled from 'styled-components'
 import GlobalStyles from './globalStyles'
 
+import {TextProvider} from './context/textContext'
+
 import Weather from './components/Weather'
 
 
 
 function App() {
   return (
-    <div>
-      <GlobalStyles />
-      <Weather />
-    </div>
+    <TextProvider>
+      <div>
+        <GlobalStyles />
+        <Weather />
+      </div>
+
+    </TextProvider>
   )
 }
 

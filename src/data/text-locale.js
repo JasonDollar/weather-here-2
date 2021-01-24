@@ -128,9 +128,9 @@ const en = {
 
 
 
-const language = {
+const text = {
   en,
   pl,
 }
-export { pl, en } 
-export default language
+// export { pl, en } 
+export default text
