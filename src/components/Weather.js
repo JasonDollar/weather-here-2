@@ -21,7 +21,7 @@ const Weather = () => {
 
   return (
     <WeatherContainer>
-      <CurrentWeather current={weatherData.currently}/>
+      <CurrentWeather current={weatherData.currently} daily={weatherData.daily} timezone={weatherData.timezone}/>
     </WeatherContainer>
   )
 }
